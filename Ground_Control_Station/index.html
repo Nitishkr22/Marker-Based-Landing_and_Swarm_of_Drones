@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        .raspi-box{
+            width: 250px;
+            height: 250px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            background-color: rgb(234, 229, 229);
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            text-align: center;
+        }
+        .d-none{
+            display: none;
+        }
+    </style>
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        
+        <div class="contanier-fluid">
+            <div id = 'boxes-container'style="display:flex; justify-content:space-around; padding: 20px;flex-wrap: wrap;">            
+            </div>
+        </div>
+        <div style="width: 100%;display: flex;
+        justify-content: space-around; align-items:  center;">
+        <button class="btn btn-primary btn-md"  onclick="checker()">Check Drones
+            <div id='check_loader' class="spinner-border spinner-border-sm text-light d-none" role="status">
+            </div>
+        </button>
+        <button class="btn btn-primary btn-md"  onclick="initiater()">Initiate Connection
+            <div id='ini_loader' class="spinner-border spinner-border-sm text-light d-none" role="status">
+              </div>
+        </button>
+        <button class="btn btn-warning btn-md"  onclick="arm_checker()">Arming Check
+            <div id='arm_loader' class="spinner-border spinner-border-sm text-light d-none" role="status">
+              </div>
+        </button>
+        <button class="btn btn-success btn-md"  onclick="starter()">Start Swarm</button>
+        </div>
+        <div  style="width: 100%;display: flex;
+        justify-content: space-around; align-items:  center; margin-top: 20px;">
+        <button class="btn btn-danger btn-md"  onclick="lander()">Land All</button>
+        </div>
+        </div>
+        <script>
+
+            var tot_drones = 1;
+            var initiation_rcvd = 0;
+            var server_active_drones =0;
+            var arming_check_done = 0;
+            var drone_global_ip = 114;
+            function checker(){
+                $('#check_loader').removeClass('d-none');
+                drone_ip = drone_global_ip;
+                for(let i=0;i<tot_drones;i++)
+                {
+                    check(drone_ip);
+                    drone_ip++;
+                }
+            }
+            function initiater(){
+                $('#ini_loader').removeClass('d-none');
+                drone_ip = drone_global_ip;
+                for(let i=0;i<tot_drones;i++)
+                {
+                    initiate(drone_ip);
+                    drone_ip++;
+                }
+            }
+
+            function starter(){
+                drone_ip = drone_global_ip;
+                for(let i=0;i<tot_drones;i++)
+                {
+                    start(drone_ip);
+                    drone_ip++;
+                }
+            }
+
+            function arm_checker(){
+                drone_ip = drone_global_ip;
+                for(let i=0;i<tot_drones;i++)
+                {
+                    arm_check(drone_ip);
+                    drone_ip++;
+                }
+            }
+            function lander(){
+                drone_ip = drone_global_ip;
+                for(let i=0;i<tot_drones;i++)
+                {
+                    land(drone_ip);
+                    drone_ip++;
+                }
+            }
+            function socket_maker(){
+                drone_ip = drone_global_ip;
+                for(let i=0;i<tot_drones;i++)
+                {
+                    do_socket(drone_ip);
+                    drone_ip++;
+                }
+            }
+
+            async function check(no) {
+                $('#raspi_'+no+'_box').css('background-color','lightgrey');
+                var worker = new Worker('worker_pinger.js?ip_addr='+no);
+                postMessage(no);
+                $('#raspi_'+no+'_status').text('(connecting...)');
+                worker.onmessage = function (event) {
+                    server_active_drones++;
+                    $('#raspi_'+no+'_box').css('background-color','lightblue');
+                    $('#raspi_'+no+'_status').text('(server active)');
+
+                    if(server_active_drones==tot_drones)
+                    {
+                        $('#check_loader').addClass('d-none');
+                    }
+                };
+            
+            }
+
+            async function do_socket(no) {
+                console.log('creating connection'); 
+                var WorkerIO = new SharedWorker('worker_socket.js?ip_addr='+no);
+
+                console.log('WorkerIO:', WorkerIO);
+
+                WorkerIO.port.addEventListener('message', function(eventM){
+                    $('#text_'+no).val(String.fromCharCode(9679)+' '+eventM.data+ $('#text_'+no).val());
+                    console.log('OnMessage:', eventM);
+                }, false);
+
+                WorkerIO.port.start();
+                WorkerIO.port.postMessage('This is a message from the client!');
+
+                WorkerIO.port.addEventListener('error', function(e){
+                throw new Error('WorkerIO Error: could not open SharedWorker', e);
+                }, false);
+
+                        
+           }
+
+            
+            async function initiate(no) {
+                await fetch('http://192.168.0.'+no+':5000/ready')
+                .then(function (response) {
+                    return response.text().then(function(text) {
+                        if(text=='True')
+                        {
+                            initiation_rcvd++;
+                            $('#raspi_'+no+'_box').css('background-color','lightgreen');
+                            $('#raspi_'+no+'_status').text('(Check Arming)');
+                        }
+                        if(initiation_rcvd==tot_drones)
+                        {
+                            $('#ini_loader').addClass('d-none');
+                        } 
+                    });
+                });
+            
+            }
+
+            async function start(no) {
+                $('#raspi_'+no+'_box').css('background-color','	#198754 ');
+                $('#raspi_'+no+'_status').text('(In Swarm)');
+                await fetch('http://192.168.0.'+no+':5000/start')
+                .then(function (response) {
+                    return response.text().then(function(text) {
+                        if(text=='True')
+                        {
+                            $('#raspi_'+no+'_box').css('background-color','green');
+                            $('#raspi_'+no+'_status').text('(Mission Completed)'); 
+                        }
+                    });
+                });
+            }
+
+            async function arm_check(no) {
+                $('#raspi_'+no+'_box').css('background-color','	#ffc107');
+                $('#raspi_'+no+'_status').text('(Arming..)');
+                await fetch('http://192.168.0.'+no+':5000/arm')
+                .then(function (response) {
+                    return response.text().then(function(text) {
+                        if(text=='True')
+                        {
+                            $('#raspi_'+no+'_box').css('background-color','green');
+                            $('#raspi_'+no+'_status').text('(Ready to Swarm)'); 
+                        }
+                    });
+                });
+            }
+
+            async function land(no) {
+                $('#raspi_'+no+'_box').css('background-color','	#dc3545');
+                $('#raspi_'+no+'_status').text('(landing..)');
+                await fetch('http://192.168.0.'+no+':5000/land')
+                .then(function (response) {
+                    return response.text().then(function(text) {
+                        if(text=='True')
+                        {
+                            // $('#raspi_'+no+'_box').css('background-color','green');
+                            $('#raspi_'+no+'_status').text('(Landing...)'); 
+                        }
+                    });
+                });
+            }
+
+            $( document ).ready(function() {
+               
+                let drone_ip = drone_global_ip;
+                 for(let i=0;i<tot_drones;i++)
+                {
+                    let str = `
+                    <div class="raspi-box" id="raspi_${drone_ip}_box">
+                        <div style='width:100%'>
+                            <strong>Raspberry pi ${drone_ip}</strong>
+                            <br>192.168.0.${drone_ip}<br>
+                            <span id="raspi_${drone_ip}_status">(inactive)</span>
+                            
+                            </div>
+                            <textarea id="text_${drone_ip}"  rows="4" class="form-control" style="width:95%; font-size:10px;"></textarea>
+                            <button class="btn btn-danger" style="box-shadow: 0px 0px 4px 1px grey;" onclick="land(${drone_ip})">Land</button>
+                            </div>`;
+                    $('#boxes-container').append(str);
+                    drone_ip++;
+                }
+                socket_maker();// for making socket connection for each drone to see logs
+            });
+        </script>
+    </body>
+</html>

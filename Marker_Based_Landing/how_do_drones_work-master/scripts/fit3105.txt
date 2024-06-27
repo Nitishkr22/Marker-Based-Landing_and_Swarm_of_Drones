@@ -1,0 +1,289 @@
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:And non-ASCII stuff, too, like Øresund and Malmö
+WARNING:werkzeug:WebSocket transport not available. Install simple-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ERROR:engineio.server:The WebSocket transport is not available, you must install a WebSocket server that is compatible with your async mode to enable it. See the documentation for details. (further occurrences of this error will be logged with level INFO)
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:31:23] "GET /socket.io/?EIO=4&transport=polling&t=O5Rd0X8 HTTP/1.1" 200 -
+INFO:root:connection done 
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:31:23] "GET /socket.io/?EIO=4&transport=polling&t=O5Rd0XX.0&sid=chC10Y3C9HDubk3SAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:31:23] "POST /socket.io/?EIO=4&transport=polling&t=O5Rd0XX&sid=chC10Y3C9HDubk3SAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:31:23] "GET /socket.io/?EIO=4&transport=polling&t=O5Rd0Y4&sid=chC10Y3C9HDubk3SAAAA HTTP/1.1" 200 -
+INFO:root:joiner request came through
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:31:23] "POST /socket.io/?EIO=4&transport=polling&t=O5Rd0YL&sid=chC10Y3C9HDubk3SAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:31:39] "GET /socket.io/?EIO=4&transport=polling&t=O5Rd4Pr HTTP/1.1" 200 -
+INFO:root:connection done 
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:31:39] "POST /socket.io/?EIO=4&transport=polling&t=O5Rd4QV&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:31:39] "GET /socket.io/?EIO=4&transport=polling&t=O5Rd0YM&sid=chC10Y3C9HDubk3SAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:31:39] "GET /socket.io/?EIO=4&transport=polling&t=O5Rd4QV.0&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:root:joiner request came through
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:31:39] "POST /socket.io/?EIO=4&transport=polling&t=O5Rd4RH&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:31:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:31:57] "GET /socket.io/?EIO=4&transport=polling&t=O5Rd4RI&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:31:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:31:58] "GET /socket.io/?EIO=4&transport=polling&t=O5Rd8je&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:root:Connecting...
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:31:59] "GET /socket.io/?EIO=4&transport=polling&t=O5Rd8zF&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:autopilot:ArduCopter V4.1.5 (1002fd6e)
+INFO:autopilot:ChibiOS: 45395b6a
+INFO:autopilot:CubeOrange 00320027 34305111 30383637
+INFO:autopilot:RCOut: PWM:1-12
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:32:00] "GET /socket.io/?EIO=4&transport=polling&t=O5Rd9D6&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:autopilot:IMU0: fast sampling enabled 8.0kHz/2.0kHz
+INFO:autopilot:IMU1: fast sampling enabled 9.0kHz/2.3kHz
+INFO:autopilot:IMU2: fast sampling enabled 9.0kHz/2.3kHz
+INFO:autopilot:Frame: QUAD/X
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:32:00] "GET /socket.io/?EIO=4&transport=polling&t=O5Rd9UD&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:root:Connected
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:32:03] "GET /ready HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:32:03] "GET /socket.io/?EIO=4&transport=polling&t=O5Rd9Ug&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:32:04] "GET /socket.io/?EIO=4&transport=polling&t=O5RdAFN&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:32:04] "POST /socket.io/?EIO=4&transport=polling&t=O5RdAXK&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:root:Arming Check...
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:32:05] "GET /socket.io/?EIO=4&transport=polling&t=O5RdAXL&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:32:11] "GET /arm HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:32:11] "GET /socket.io/?EIO=4&transport=polling&t=O5RdAtx&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:root:Taking off
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:32:13] "GET /socket.io/?EIO=4&transport=polling&t=O5RdCLy&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:root:Arming motors
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:32:13] "GET /socket.io/?EIO=4&transport=polling&t=O5RdCi2&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:root:Takeoff
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:32:16] "GET /socket.io/?EIO=4&transport=polling&t=O5RdCjp&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:autopilot:EKF3 IMU1 MAG0 in-flight yaw alignment complete
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:32:20] "GET /socket.io/?EIO=4&transport=polling&t=O5RdDSq&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:autopilot:EKF3 IMU0 MAG0 in-flight yaw alignment complete
+INFO:root:Altitude reached
+INFO:root:Going 10 meters in North
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:32:26] "GET /socket.io/?EIO=4&transport=polling&t=O5RdET2&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:32:29] "GET /socket.io/?EIO=4&transport=polling&t=O5RdFve&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:32:29] "POST /socket.io/?EIO=4&transport=polling&t=O5RdGen&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:root:Setting yaw to zero
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:32:38] "GET /socket.io/?EIO=4&transport=polling&t=O5RdGeo&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:root: 
+INFO:root:Marker found x = 208.7316355963197  y = 1.7372393410639244
+INFO:root:Marker N = -208.7316355963197  E = -1.7372393410639244
+INFO:root:Correcting Position...
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:32:48] "GET /socket.io/?EIO=4&transport=polling&t=O5RdIsR&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+WARNING:autopilot:Battery 1 is low 10.30V used 558 mAh
+WARNING:autopilot:Battery Failsafe
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:32:54] "GET /socket.io/?EIO=4&transport=polling&t=O5RdLHc&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:32:54] "POST /socket.io/?EIO=4&transport=polling&t=O5RdMnc&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:root:Position Corrected
+INFO:root:local-alt: --8.68696117401123global alt: 6.816
+INFO:root:Descending...
+INFO:root:Decreased altitude to local --6.811993598937988, corrected alt:6.870961174011231global_alt4.941
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:33:08] "GET /socket.io/?EIO=4&transport=polling&t=O5RdMnd&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:33:08] "GET /socket.io/?EIO=4&transport=polling&t=O5RdQAM&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:root: 
+INFO:root:Marker found x = -11.528787483471266  y = 131.0660061248137
+INFO:root:Marker N = --11.528787483471266  E = -131.0660061248137
+INFO:root:Correcting Position...
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:33:08] "GET /socket.io/?EIO=4&transport=polling&t=O5RdQCC&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:root:Position Corrected
+INFO:root:local-alt: --6.780293941497803global alt: 4.91
+INFO:root:Descending...
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:33:18] "GET /socket.io/?EIO=4&transport=polling&t=O5RdQEg&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:33:19] "GET /socket.io/?EIO=4&transport=polling&t=O5RdShC&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:33:19] "POST /socket.io/?EIO=4&transport=polling&t=O5RdSvb&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:root:Decreased altitude to local --5.01578426361084, corrected alt:4.370293941497803global_alt3.145
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:33:28] "GET /socket.io/?EIO=4&transport=polling&t=O5RdSvb.0&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:33:29] "GET /socket.io/?EIO=4&transport=polling&t=O5RdV82&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:33:29] "GET /socket.io/?EIO=4&transport=polling&t=O5RdVBE&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:33:44] "GET /socket.io/?EIO=4&transport=polling&t=O5RdVDC&sid=o7obf9LDf0Fwcx6lAAAC HTTP/1.1" 200 -
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+

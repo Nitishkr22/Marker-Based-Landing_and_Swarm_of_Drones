@@ -1,0 +1,291 @@
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:And non-ASCII stuff, too, like Øresund and Malmö
+WARNING:werkzeug:WebSocket transport not available. Install simple-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ERROR:engineio.server:The WebSocket transport is not available, you must install a WebSocket server that is compatible with your async mode to enable it. See the documentation for details. (further occurrences of this error will be logged with level INFO)
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:18:42] "GET /socket.io/?EIO=4&transport=polling&t=O5Rf5iN HTTP/1.1" 200 -
+INFO:root:connection done 
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:18:42] "POST /socket.io/?EIO=4&transport=polling&t=O5Rf5kG&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:18:42] "GET /socket.io/?EIO=4&transport=polling&t=O5Rf5kI&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:joiner request came through
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:18:42] "POST /socket.io/?EIO=4&transport=polling&t=O5Rf5l2&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:18:43] "GET /socket.io/?EIO=4&transport=polling&t=O5Rf60W HTTP/1.1" 200 -
+INFO:root:connection done 
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:18:43] "POST /socket.io/?EIO=4&transport=polling&t=O5Rf60u&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:18:43] "GET /socket.io/?EIO=4&transport=polling&t=O5Rf60v&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:18:43] "GET /socket.io/?EIO=4&transport=polling&t=O5Rf5l0&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:joiner request came through
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:18:43] "POST /socket.io/?EIO=4&transport=polling&t=O5Rf61S&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:joiner request came through
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:18:43] "POST /socket.io/?EIO=4&transport=polling&t=O5Rf61Z&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:19:07] "GET /socket.io/?EIO=4&transport=polling&t=O5Rf61T&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:19:07] "POST /socket.io/?EIO=4&transport=polling&t=O5RfBsI&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:19:08] "GET /socket.io/?EIO=4&transport=polling&t=O5Rf61Y&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:19:08] "POST /socket.io/?EIO=4&transport=polling&t=O5RfC8T&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:19:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:19:26] "GET /socket.io/?EIO=4&transport=polling&t=O5RfC8T.0&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:19:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:19:27] "GET /socket.io/?EIO=4&transport=polling&t=O5RfBsJ&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Connecting...
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:19:28] "GET /socket.io/?EIO=4&transport=polling&t=O5RfGeN&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:autopilot:ArduCopter V4.1.5 (1002fd6e)
+INFO:autopilot:ChibiOS: 45395b6a
+INFO:autopilot:CubeOrange 00320027 34305111 30383637
+INFO:autopilot:RCOut: PWM:1-12
+INFO:autopilot:IMU0: fast sampling enabled 8.0kHz/2.0kHz
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:19:32] "GET /socket.io/?EIO=4&transport=polling&t=O5RfGPY&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+INFO:autopilot:IMU1: fast sampling enabled 9.0kHz/2.3kHz
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:19:32] "GET /socket.io/?EIO=4&transport=polling&t=O5RfGou&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:autopilot:IMU2: fast sampling enabled 9.0kHz/2.3kHz
+INFO:autopilot:Frame: QUAD/X
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:19:32] "GET /socket.io/?EIO=4&transport=polling&t=O5RfHqm&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:19:32] "GET /socket.io/?EIO=4&transport=polling&t=O5RfHqk&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:19:32] "GET /socket.io/?EIO=4&transport=polling&t=O5RfHrI&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:19:32] "POST /socket.io/?EIO=4&transport=polling&t=O5RfH-I&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:19:33] "GET /socket.io/?EIO=4&transport=polling&t=O5RfHrE&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:19:34] "POST /socket.io/?EIO=4&transport=polling&t=O5RfIFz&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+CRITICAL:autopilot:PreArm: Hardware safety switch
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:19:48] "GET /socket.io/?EIO=4&transport=polling&t=O5RfH-J&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:19:57] "GET /socket.io/?EIO=4&transport=polling&t=O5RfLta&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:19:58] "POST /socket.io/?EIO=4&transport=polling&t=O5RfO6J&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:19:59] "GET /socket.io/?EIO=4&transport=polling&t=O5RfIFz.0&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:19:59] "POST /socket.io/?EIO=4&transport=polling&t=O5RfONN&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+ERROR:flask.app:Exception on /ready [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/pi/.local/lib/python3.7/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python3/dist-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/pi/Desktop/myDrones_swarm2/how_do_drones_work-master/scripts/light_show.py", line 73, in before_first_request
+    vehicle = connect(connection_string, wait_ready=True)
+  File "/home/pi/.local/lib/python3.7/site-packages/dronekit/__init__.py", line 3172, in connect
+    timeout=timeout)
+  File "/home/pi/.local/lib/python3.7/site-packages/dronekit/__init__.py", line 2375, in wait_ready
+    timeout)
+dronekit.TimeoutError: wait_ready experienced a timeout after 30 seconds.
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:20:02] "GET /ready HTTP/1.1" 500 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:20:02] "GET /socket.io/?EIO=4&transport=polling&t=O5RfONO&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+CRITICAL:autopilot:PreArm: Hardware safety switch
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:20:18] "GET /socket.io/?EIO=4&transport=polling&t=O5RfPCn&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:20:23] "GET /socket.io/?EIO=4&transport=polling&t=O5RfO6J.0&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:20:23] "POST /socket.io/?EIO=4&transport=polling&t=O5RfUEH&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:20:24] "GET /socket.io/?EIO=4&transport=polling&t=O5RfTCl&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:20:24] "POST /socket.io/?EIO=4&transport=polling&t=O5RfUUR&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+INFO:root:Connecting...
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:20:41] "GET /socket.io/?EIO=4&transport=polling&t=O5RfUEI&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+WARNING:dronekit:Link timeout, no heartbeat in last 5 seconds
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:20:46] "GET /socket.io/?EIO=4&transport=polling&t=O5RfUUR.0&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+WARNING:dronekit:Link timeout, no heartbeat in last 5 seconds
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:20:46] "GET /socket.io/?EIO=4&transport=polling&t=O5RfYrD&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:20:48] "GET /socket.io/?EIO=4&transport=polling&t=O5Rfa4g&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:20:48] "POST /socket.io/?EIO=4&transport=polling&t=O5RfaN_&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:20:49] "GET /socket.io/?EIO=4&transport=polling&t=O5RfZsN&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:20:49] "POST /socket.io/?EIO=4&transport=polling&t=O5RfacJ&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+INFO:dronekit:...link restored.
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:20:56] "GET /socket.io/?EIO=4&transport=polling&t=O5RfacJ.0&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+INFO:dronekit:...link restored.
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:20:58] "GET /socket.io/?EIO=4&transport=polling&t=O5RfaN_.0&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+WARNING:dronekit:Link timeout, no heartbeat in last 5 seconds
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:02] "GET /socket.io/?EIO=4&transport=polling&t=O5RfcnQ&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:13] "GET /socket.io/?EIO=4&transport=polling&t=O5Rfdlt&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:13] "POST /socket.io/?EIO=4&transport=polling&t=O5RfgXR&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:14] "GET /socket.io/?EIO=4&transport=polling&t=O5RfcI4&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:14] "POST /socket.io/?EIO=4&transport=polling&t=O5Rfgkv&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+ERROR:flask.app:Exception on /ready [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/pi/.local/lib/python3.7/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python3/dist-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/pi/Desktop/myDrones_swarm2/how_do_drones_work-master/scripts/light_show.py", line 73, in before_first_request
+    vehicle = connect(connection_string, wait_ready=True)
+  File "/home/pi/.local/lib/python3.7/site-packages/dronekit/__init__.py", line 3172, in connect
+    timeout=timeout)
+  File "/home/pi/.local/lib/python3.7/site-packages/dronekit/__init__.py", line 2375, in wait_ready
+    timeout)
+dronekit.TimeoutError: wait_ready experienced a timeout after 30 seconds.
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:28] "GET /ready HTTP/1.1" 500 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:28] "GET /socket.io/?EIO=4&transport=polling&t=O5RfgXR.0&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:30] "GET /socket.io/?EIO=4&transport=polling&t=O5RfkiH HTTP/1.1" 200 -
+INFO:root:connection done 
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:30] "POST /socket.io/?EIO=4&transport=polling&t=O5Rfkin&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:30] "GET /socket.io/?EIO=4&transport=polling&t=O5Rfgkv.0&sid=-te4zWS7l3G4ZtybAAAC HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:30] "GET /socket.io/?EIO=4&transport=polling&t=O5Rfkin.0&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:30] "GET /socket.io/?EIO=4&transport=polling&t=O5Rfk93&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:joiner request came through
+INFO:root:joiner request came through
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:30] "POST /socket.io/?EIO=4&transport=polling&t=O5Rfkjm&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:30] "POST /socket.io/?EIO=4&transport=polling&t=O5Rfkjo&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:33] "GET /socket.io/?EIO=4&transport=polling&t=O5Rfkjm.0&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:35] "GET /socket.io/?EIO=4&transport=polling&t=O5RflYT&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Connecting...
+INFO:autopilot:ArduCopter V4.1.5 (1002fd6e)
+INFO:autopilot:ChibiOS: 45395b6a
+INFO:autopilot:CubeOrange 00320027 34305111 30383637
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:38] "GET /socket.io/?EIO=4&transport=polling&t=O5Rfkjp&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:autopilot:RCOut: PWM:1-12
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:38] "GET /socket.io/?EIO=4&transport=polling&t=O5RfloM&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:autopilot:IMU0: fast sampling enabled 8.0kHz/2.0kHz
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:38] "GET /socket.io/?EIO=4&transport=polling&t=O5Rfmca&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:autopilot:IMU1: fast sampling enabled 9.0kHz/2.3kHz
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:38] "GET /socket.io/?EIO=4&transport=polling&t=O5Rfmcj&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:autopilot:IMU2: fast sampling enabled 9.0kHz/2.3kHz
+INFO:autopilot:Frame: QUAD/X
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:38] "GET /socket.io/?EIO=4&transport=polling&t=O5Rfmdi&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:38] "GET /socket.io/?EIO=4&transport=polling&t=O5RfmeH&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:38] "POST /socket.io/?EIO=4&transport=polling&t=O5Rfmg2&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Connected
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:41] "GET /ready HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:41] "GET /socket.io/?EIO=4&transport=polling&t=O5Rfmg2.0&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Arming Check...
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:43] "GET /socket.io/?EIO=4&transport=polling&t=O5RfnPb&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+CRITICAL:autopilot:PreArm: Hardware safety switch
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:44] "GET /socket.io/?EIO=4&transport=polling&t=O5Rfnw1&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+CRITICAL:autopilot:PreArm: Hardware safety switch
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:48] "GET /socket.io/?EIO=4&transport=polling&t=O5RfoA0&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:55] "GET /socket.io/?EIO=4&transport=polling&t=O5Rfmda&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:21:55] "POST /socket.io/?EIO=4&transport=polling&t=O5Rfqql&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:22:03] "GET /socket.io/?EIO=4&transport=polling&t=O5RfpAM&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:22:03] "POST /socket.io/?EIO=4&transport=polling&t=O5Rfsnd&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:22:20] "GET /socket.io/?EIO=4&transport=polling&t=O5Rfqql.0&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:22:20] "POST /socket.io/?EIO=4&transport=polling&t=O5RfwyI&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:22:28] "GET /socket.io/?EIO=4&transport=polling&t=O5Rfsnd.0&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:22:28] "POST /socket.io/?EIO=4&transport=polling&t=O5RfyvI&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Arming Check...
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:22:28] "GET /socket.io/?EIO=4&transport=polling&t=O5RfyvI.0&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Arming Check...
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:22:34] "GET /socket.io/?EIO=4&transport=polling&t=O5RfyyV&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:22:34] "GET /arm HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:22:34] "GET /socket.io/?EIO=4&transport=polling&t=O5RfwyJ&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:22:34] "GET /arm HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:22:40] "GET /arm HTTP/1.1" 200 -
+INFO:root:Taking off
+INFO:root:Arming motors
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:22:45] "GET /socket.io/?EIO=4&transport=polling&t=O5Rf-LC&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:22:45] "GET /socket.io/?EIO=4&transport=polling&t=O5Rf-Nw&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:22:45] "POST /socket.io/?EIO=4&transport=polling&t=O5Rg14h&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:root:Takeoff
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:22:48] "GET /socket.io/?EIO=4&transport=polling&t=O5Rg102&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:autopilot:EKF3 IMU0 MAG0 in-flight yaw alignment complete
+INFO:autopilot:EKF3 IMU1 MAG0 in-flight yaw alignment complete
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:22:53] "GET /socket.io/?EIO=4&transport=polling&t=O5Rg1lz&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:22:53] "POST /socket.io/?EIO=4&transport=polling&t=O5Rg31R&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Altitude reached
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:22:55] "GET /socket.io/?EIO=4&transport=polling&t=O5Rg31S&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Going 10 meters in North
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:22:57] "GET /socket.io/?EIO=4&transport=polling&t=O5Rg14i&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:root:Setting yaw to zero
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:09] "GET /socket.io/?EIO=4&transport=polling&t=O5Rg3Sl&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:10] "GET /socket.io/?EIO=4&transport=polling&t=O5Rg3yk&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:10] "POST /socket.io/?EIO=4&transport=polling&t=O5Rg7Bp&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:18] "GET /socket.io/?EIO=4&transport=polling&t=O5Rg6zt&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:18] "POST /socket.io/?EIO=4&transport=polling&t=O5Rg98k&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root: 
+INFO:root:Marker found x = 174.3587739444579  y = 20.05141527005869
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:19] "GET /socket.io/?EIO=4&transport=polling&t=O5Rg98k.0&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Marker N = -174.3587739444579  E = -20.05141527005869
+INFO:root:Correcting Position...
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:19] "GET /socket.io/?EIO=4&transport=polling&t=O5Rg7Bq&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:20] "GET /socket.io/?EIO=4&transport=polling&t=O5Rg9QK&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Position Corrected
+INFO:root:local-alt: --8.066956520080566global alt: 6.986
+INFO:root:Descending...
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:30] "GET /socket.io/?EIO=4&transport=polling&t=O5Rg9R3&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:35] "GET /socket.io/?EIO=4&transport=polling&t=O5Rg9Qc&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:36] "POST /socket.io/?EIO=4&transport=polling&t=O5RgDKj&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:root:Decreased altitude to local --6.089216232299805, corrected alt:6.080956520080567global_alt5.008
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:40] "GET /socket.io/?EIO=4&transport=polling&t=O5RgBtG&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:40] "GET /socket.io/?EIO=4&transport=polling&t=O5RgEMN&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:40] "GET /socket.io/?EIO=4&transport=polling&t=O5RgENg&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:40] "GET /socket.io/?EIO=4&transport=polling&t=O5RgERa&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:40] "GET /socket.io/?EIO=4&transport=polling&t=O5RgEUn&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:40] "GET /socket.io/?EIO=4&transport=polling&t=O5RgEWy&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:41] "GET /socket.io/?EIO=4&transport=polling&t=O5RgEZ8&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:41] "GET /socket.io/?EIO=4&transport=polling&t=O5RgEbh&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root: 
+INFO:root:Marker found x = -2.1460680521366697  y = -43.42643906247097
+INFO:root:Marker N = --2.1460680521366697  E = --43.42643906247097
+INFO:root:Correcting Position...
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:41] "GET /socket.io/?EIO=4&transport=polling&t=O5RgDKk&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:43] "GET /socket.io/?EIO=4&transport=polling&t=O5RgEcx&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:43] "POST /socket.io/?EIO=4&transport=polling&t=O5RgFGk&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Position Corrected
+INFO:root:local-alt: --6.285928249359131global alt: 5.206
+INFO:root:Descending...
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:23:51] "GET /socket.io/?EIO=4&transport=polling&t=O5RgFGk.0&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:24:01] "GET /socket.io/?EIO=4&transport=polling&t=O5RgEhv&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:24:01] "POST /socket.io/?EIO=4&transport=polling&t=O5RgJSj&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:root:Decreased altitude to local --3.4941163063049316, corrected alt:3.5799282493591305global_alt2.414
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:24:01] "GET /socket.io/?EIO=4&transport=polling&t=O5RgH8W&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:24:01] "GET /socket.io/?EIO=4&transport=polling&t=O5RgJaw&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:24:01] "GET /socket.io/?EIO=4&transport=polling&t=O5RgJSk&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root:Marker went outside camera frame increasing altitude
+INFO:root: 
+INFO:root:Marker found x = 32.97464718837748  y = 34.110930685621916
+INFO:root:Marker N = -32.97464718837748  E = -34.110930685621916
+INFO:root:Correcting Position...
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:24:02] "GET /socket.io/?EIO=4&transport=polling&t=O5RgJcp&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:24:08] "GET /socket.io/?EIO=4&transport=polling&t=O5RgJmy&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:24:09] "POST /socket.io/?EIO=4&transport=polling&t=O5RgLOJ&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Position Corrected
+INFO:root:local-alt: --3.574162244796753global alt: 2.495
+INFO:root: -->>COMMANDING TO LAND<<
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:24:12] "GET /socket.io/?EIO=4&transport=polling&t=O5RgLOJ.0&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:root:Exiting.........
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:24:12] "GET /start HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:24:12] "GET /socket.io/?EIO=4&transport=polling&t=O5RgMDg&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:24:26] "GET /socket.io/?EIO=4&transport=polling&t=O5RgJez&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:24:26] "POST /socket.io/?EIO=4&transport=polling&t=O5RgPag&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:24:34] "GET /socket.io/?EIO=4&transport=polling&t=O5RgMEp&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:24:34] "POST /socket.io/?EIO=4&transport=polling&t=O5RgRXU&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:24:51] "GET /socket.io/?EIO=4&transport=polling&t=O5RgPag.0&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:24:51] "POST /socket.io/?EIO=4&transport=polling&t=O5RgVif&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:24:59] "GET /socket.io/?EIO=4&transport=polling&t=O5RgRXU.0&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:24:59] "POST /socket.io/?EIO=4&transport=polling&t=O5RgXfV&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:25:16] "GET /socket.io/?EIO=4&transport=polling&t=O5RgVif.0&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:25:16] "POST /socket.io/?EIO=4&transport=polling&t=O5RgbsG&sid=Eu1be_vamYFnG2YYAAAE HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.0.101 - - [12/Jun/2022 20:25:23] "GET /socket.io/?EIO=4&transport=polling&t=O5RgXfW&sid=C73Q174_8l0EsnsUAAAA HTTP/1.1" 200 -
+
